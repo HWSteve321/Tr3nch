@@ -1157,7 +1157,7 @@ const withBackground=function(background) {
 					if (cur.url.includes("chrome-untrusted:")) {
 						alert("Tr3nch cannot be injected into urls with the 'chrome-untrusted:' protocol.");
 						/* The --extensions-on-chrome-urls flag that this relies on does not grant access 
-						to the chrome-untrusted protocol, so no access to pages like crosh is possible. */
+						to the chrome-untrusted protocol, so no access to pages like cro is possible. */
 						return;
 					}
 				
@@ -1180,7 +1180,7 @@ const withBackground=function(background) {
 							if (cur.url.includes("chrome-untrusted:")) {
 								alert("Tr3nch cannot be injected into urls with the 'chrome-untrusted:' protocol.");
 								/* The --extensions-on-chrome-urls flag that this relies on does not grant access 
-								to the chrome-untrusted protocol, so no access to pages like crosh is possible. */
+								to the chrome-untrusted protocol, so no access to pages like cro is possible. */
 								return;
 							}
 							
